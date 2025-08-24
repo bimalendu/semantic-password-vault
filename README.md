@@ -14,21 +14,21 @@ A secure, offline Streamlit application that allows you to semantically search t
 
 ## 📦 Installation
 
-1. **Clone the repo (or save the file)**
+1. Clone the repo (or save the file)
 
-   ```bash
+```bash
    git clone https://github.com/yourusername/semantic-password-vault.git
    cd semantic-password-vault
 ````
 
-2. **Install dependencies**
+2. Install dependencies
 
    Create a virtual environment (optional but recommended):
 
-   ```bash
+```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+```
 
    Install packages:
 
@@ -62,7 +62,6 @@ A secure, offline Streamlit application that allows you to semantically search t
 
 3. Upload the `.csv` file using the interface and start searching semantically!
 
----
 
 ## 📁 File Structure
 
@@ -73,7 +72,6 @@ semantic-password-vault/
 └── README.md                 # You're here!
 ```
 
----
 
 ## ✅ Roadmap / To-Do
 
@@ -83,16 +81,14 @@ semantic-password-vault/
 * [ ] Multi-browser format detection
 * [ ] Dark mode toggle
 
----
 
 ## 🔐 Security
 
 * No data is stored or transmitted.
-* All processing happens **locally in memory**.
+* All processing happens locally in memorY.
 * Password files are never uploaded or cached by the app.
-* Still: **Handle your exported CSV with extreme care.**
+* Still: Handle your exported CSV with extreme care.
 
----
 
 ## 🧠 Powered By
 
@@ -100,21 +96,17 @@ semantic-password-vault/
 * [Sentence Transformers](https://www.sbert.net/)
 * [pandas](https://pandas.pydata.org/)
 
----
-
 ## 📝 License
 
 GPLv3 License
 
----
-
 ## 🙋 FAQ
 
-### ❓ Can this app automatically pull passwords from my browser?
+### Can this app automatically pull passwords from my browser?
 
 No. This app is designed to avoid accessing system-level password managers or secure storage. You must export your data manually for safety and legal reasons.
 
-### ❓ Is my data safe?
+### Is my data safe?
 
 Yes. The app never stores or sends your data. It runs entirely in your local Python environment.
 
