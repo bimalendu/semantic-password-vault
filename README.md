@@ -28,27 +28,29 @@ A secure, offline Streamlit application that allows you to semantically search t
 ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+````
+
+or
 
 ```uv
    uv init
-```
+````
 
    Install packages:
 
    ```bash
    pip install -r requirements.txt
-   ```
+   ````
 
    Or manually:
 
    ```bash
    pip install streamlit pandas sentence-transformers
-   ```
+   ````
    
    ```uv
    uv add streamlit pandas sentence-transformers
-
+   ````
 ---
 
 ## 📝 Usage
@@ -65,11 +67,11 @@ A secure, offline Streamlit application that allows you to semantically search t
 
    ```bash
    streamlit run password_vault.py
-   ```
+   ````
 
    ```uv
    uv run -- streamlit run password_vault.py
-   ```
+   ````
 
 3. Upload the `.csv` file using the interface and start searching semantically!
 
@@ -81,7 +83,7 @@ semantic-password-vault/
 ├── password_vault.py         # Main Streamlit app
 ├── requirements.txt          # Python dependencies
 └── README.md                 # You're here!
-```
+````
 
 
 ## 🔐 Security
